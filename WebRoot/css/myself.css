@@ -1,0 +1,244 @@
+
+body {
+	
+	/*height: 600px;
+	background: -moz-linear-gradient(top, #f6f6f8, #b8c4cb);
+	*/
+	background-image: url(../image/jing.jpg);
+	padding:0px;
+	margin:0px;
+	
+}
+header
+{
+	padding:0px;
+	margin:0px;
+}
+
+
+.biaoti{
+	position:relative;
+	padding:0px;
+	margin:0px;
+	background: url(../image/biaoti.jpg);
+	width:1366px;
+	height: 80px;
+	}
+.yemei
+{
+	position:relative;
+	
+}
+
+	
+.yemei ul 
+{
+	position:absolute;
+	margin-left:800px;
+	margin-top:0px;
+	z-index:3;
+	
+}
+.yemei ul li
+{
+	
+	padding:5px 10px;
+	margin-top:10px;
+	float:left;
+	list-style-type: none;
+}
+.yemei ul li a
+{
+	text-decoration: underline;
+	font-size: smaller;
+	color:#0b9968;
+}
+nav ul
+{
+	position:relative;
+	margin-left:100px;
+	
+}
+nav ul li
+{
+	float:left;
+	list-style-type: none;
+
+	/*background-color: rgba(180,244,229,0.8);*/
+	margin:10px 0px ;
+	padding:0px 50px 0px;
+	
+	/*border-radius:10px;*/
+	
+	
+	border-right:1px solid #bebebe;
+}
+nav ul li:FIRST-CHILD
+{
+	border-left:1px solid #bebebe;
+}
+
+
+
+
+a:link {
+	color:black;
+	
+}
+
+a:visited{
+	color:black;
+	
+}
+a:foucs
+{
+	color:black;
+}
+a:hover
+{
+	color:#4cf5c4;
+}
+a:active
+{
+	color:blue;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	font-weight: bolder;
+	
+}
+.about
+{
+	position:absolute;
+	top:150px;
+	left:0px;
+	width:1366px;
+	
+	border-top:2px solid #4cf5c4;
+}
+.person
+{
+	position:relative;
+	top:40px;
+	left:230px;
+	width:800px;
+	height:250px;
+	border-top:1px solid #4cf5c4;
+	
+}
+
+
+.pic
+{
+	position:relative;
+	top:20px;
+	left:20px;
+	width:200px;
+	height:200px;
+	
+}
+.pic h3
+{
+	position:relative;
+	margin-left: 60px;
+	margin-bottom:5px;
+	color:#82ad9e;
+	
+}
+.pic img
+{
+	position:relative;
+	margin-left: 20px;
+	margin-top: 0px;
+	opacity:0.65;
+	
+}
+.pic img:HOVER
+{
+	opacity:1;
+}
+
+.content
+{
+	position: relative;
+	top:-200px;
+	left:235px;
+	width: 550px;
+	height:210px;
+	
+}
+ .content p
+{
+	
+	color:#476259;
+	font-weight: bolder;
+	
+}
+
+
+.content span
+{
+	font-size: larger;
+	font-weight: bolder;
+	color:#000;
+}
+.ind
+{
+	position:absolute;
+	top:150px;
+	left:0px;
+	width:1366px;
+	
+	border-top:2px solid #4cf5c4;
+}
+.jie
+{
+	position:relative;
+	top:50px;
+	left:220px;
+	width:500px;
+	height:500px;
+	
+}
+.jie h3
+{
+	position:relative;
+	margin-left: 60px;
+	margin-bottom:5px;
+	color:#82ad9e;
+	
+}
+.ind img
+{
+	position:relative;
+	margin-left: -30px;
+	margin-top: 20px;
+	opacity:0.65;
+	
+}
+.ind img:HOVER
+{
+	opacity:1;
+}
+.p1
+{
+	position: relative;
+	top:-400px;
+	left:700px;
+	width: 550px;
+	height:210px;
+	
+}
+ .p1 p
+{
+	
+	color:#476259;
+	
+	padding:0px;
+	line-height:40px;
+	font-weight: bolder;
+	
+}
+

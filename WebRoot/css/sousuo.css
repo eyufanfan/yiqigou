@@ -1,0 +1,386 @@
+@CHARSET "UTF-8";
+body {
+	
+	/*height: 600px;
+	background: -moz-linear-gradient(top, #f6f6f8, #b8c4cb);
+	*/
+	background-color:#fff;
+	padding:0px;
+	margin:0px;
+	
+}
+header
+{
+	padding:0px;
+	margin:0px;
+}
+
+
+.biaoti{
+	position:relative;
+	padding:0px;
+	margin:0px;
+	background: url(../image/biaoti.jpg);
+	width:1366px;
+	height: 80px;
+	}
+.yemei
+{
+	position:relative;
+	
+}
+
+	
+.yemei ul 
+{
+	position:absolute;
+	margin-left:800px;
+	margin-top:0px;
+	z-index:3;
+	
+}
+.yemei ul li
+{
+	
+	padding:5px 10px;
+	margin-top:10px;
+	float:left;
+	list-style-type: none;
+}
+.yemei ul li a
+{
+	text-decoration: underline;
+	font-size: smaller;
+	color:#0b9968;
+}
+nav ul
+{
+	position:relative;
+	margin-left:100px;
+	
+}
+nav ul li
+{
+	float:left;
+	list-style-type: none;
+
+	/*background-color: rgba(180,244,229,0.8);*/
+	margin:10px 0px ;
+	padding:0px 50px 0px;
+	
+	/*border-radius:10px;*/
+	
+	
+	border-right:1px solid #bebebe;
+}
+nav ul li:FIRST-CHILD
+{
+	border-left:1px solid #bebebe;
+}
+
+
+
+
+a:link {
+	color:black;
+	
+}
+
+a:visited{
+	color:black;
+	
+}
+a:foucs
+{
+	color:black;
+}
+a:hover
+{
+	color:#4cf5c4;
+}
+a:active
+{
+	color:blue;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	font-weight: bolder;
+	
+}
+.sousuo
+{
+	position:absolute;
+	top:30px;
+	left:400px;
+}
+
+.shangbu
+	{
+	position:relative;
+	top:60px;
+	left:0px;
+	width:1366px;
+	height:480px;
+	border-bottom:2px solid #c6d2ce;
+	border-top:2px solid #33F2E0;
+	margin: 0px;
+	padding:0px;
+}
+.all
+{
+	
+	position:relative;
+	top:10px;
+	left:83px;
+	
+	width:100px;
+	height:40px;
+	
+	font-size: larger;
+	font-weight:bolder;
+	color:#2FDBCD;
+	text-align:center;
+	
+	
+}
+.big
+{
+	position:relative;
+	top:40px;
+	left:100px;
+	width:1200px;
+	height:350px;
+	
+	
+	margin: 0px;
+	padding:0px;
+}
+.left
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:120px;
+	height:350px;
+	
+	
+	margin: 0px;
+	padding:0px;
+}
+.left1
+{
+	
+	position:relative;
+	top:0px;
+	left:0px;
+	
+	width:120px;
+	height:52px;
+	
+	text-align:left;
+	font-weight: bolder;
+	background-color: #F3F3F3;
+	
+	
+	
+}
+.left1 span
+{
+	display:inline-block;
+	padding-top:15px;
+	font-size: 15px;
+	position: relative;
+	left:10px;
+	
+}
+.right
+{
+	position:absolute;
+	top:0px;
+	left:140px;
+	
+	width:1060px;
+	height:500px;
+	
+}
+
+.fenlei-right
+{
+	
+	padding:0px;
+	margin:0px;
+}
+
+.fenlei-right li
+
+{
+	position:relative;
+	float:left;
+	list-style-type: none;
+     padding:3px 3px;
+	margin-top:10px;
+	margin-left:40px;
+	font-size: 15px;
+}
+.fenlei
+{
+	position:relative;
+	top:0px;
+	left:0px;
+	
+	width:1080px;
+	height:50px;
+	
+	background-color: #fff;
+	
+	padding:0px;
+	margin:0px;
+	border-bottom: 2px dotted #ECECEC;
+}
+.fenlei li a:hover
+{
+	
+	text-decoration:underline;
+	color:#000;
+}
+
+.nav2
+{
+	position:relative;
+	top:30px;
+	left:100px;
+	
+	width:1080px;
+	height:50px;
+
+	
+	
+	padding:0px;
+	margin:0px;
+	
+}
+
+
+.nav2 ul li
+{
+	position:relative;
+	float:left;
+	left:-40px;
+	list-style-type: none;
+    margin:10px 0px ;
+	padding:0px 30px 0px;
+	
+	font-size: 15px;
+	border-right:1px solid #bebebe;
+}
+.nav2 ul li:FIRST-CHILD
+{
+	border-left:1px solid #bebebe;
+	color:#2CDDCD;
+	font-weight: bolder;
+	
+}
+
+.nav2 li a:hover
+{
+	
+	text-decoration:underline;
+	color:#000;
+}
+.browser
+{
+	
+	position:relative;
+	
+	left:90px;
+	top:80px;
+	height:1800px;
+	width:1220px;
+	font-size: 15px;
+	border-bottom:2px solid #000;
+
+	
+}
+.one
+{
+	position:relative;
+	
+	left:10px;
+	top:10px;
+	height:380px;
+	width:250px;
+	font-size: 15px;
+	
+	float:left;
+	margin-right:40px;
+	margin-bottom:20px;
+}
+.picture
+{
+	position:relative;
+	
+	left:10px;
+	top:10px;
+	height:330px;
+	width:220px;
+	font-size: 15px;
+	
+}
+.picture img
+{
+	height:330px;
+	width:220px;
+}
+.name
+{
+	position:relative;
+	
+	left:10px;
+	top:10px;
+	height:30px;
+	width:220px;
+	font-size: 15px;
+	margin-top:10px;
+}
+.money
+{
+	position:relative;
+	
+	left:10px;
+	top:10px;
+	height:30px;
+	width:220px;
+	font-size: 15px;
+	
+}
+.fen{
+	position:relative;
+	top:1700px;
+	left:200px;
+	height:50px;
+	width:200px;
+	border:1px solid #000;
+}
+footer
+{
+
+text-align:center;
+height:30px;
+line-height:30px;
+background:#F4F4F4;
+width:1000px; margin:0 auto;
+padding:0 10px;
+
+}
+.xia
+{
+	position:relative;
+	
+	left:10px;
+	top:110px;
+	
+	font-size: 12px;
+	
+}

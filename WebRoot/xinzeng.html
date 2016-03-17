@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+	<div class="topbar-wrap white" style="background-color: #aeecf0">
+		<h1>后台管理</h1>
+
+		<div class="topbar-inner clearfix">
+			<div class="topbar-logo-wrap clearfix"></div>
+			<div class="top-info-wrap">
+				<ul class="top-info-list clearfix">
+
+					<li><a href="#">退出</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="sidebar-wrap">
+		<div class="sidebar-title">
+			<h2>管理菜单</h2>
+		</div>
+		<div class="sidebar-content">
+			<ul class="sidebar-list">
+				<li><a href="#"><i class="icon-font">&#xe003;</i>操作</a>
+					<ul class="sub-menu">
+						<li><a href="houtaiguanli.html"><i class="icon-font">&#xe008;</i>管理商品</a>
+						</li>
+						<li><a href="daohang.html"><i class="icon-font">&#xe005;</i>管理导航栏</a>
+						</li>
+						<li><a href="mokuai.html"><i class="icon-font">&#xe006;</i>管理商品模块</a>
+						</li>
+						<li><a href="fahuo.html"><i class="icon-font">&#xe004;</i>发货</a>
+						</li>
+
+					</ul>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+	<!--/sidebar-->
+	<div class="main-wrap">
+		<div class="crumb-wrap">
+			<div class="crumb-list">
+				<i class="icon-font"></i><a href="#">管理商品</a><span class="crumb-step">&gt;</span><span
+					class="crumb-name">新增商品</span>
+			</div>
+		</div>
+
+
+		<div class="result-wrap">
+			<form action="#" method="post" id="myform" name="myform">
+				
+					<div class="config-title">
+						<h1>
+							<i class="icon-font">&#xe00a;</i>商品基本信息
+						</h1>
+					</div>
+					
+
+						<fieldset>
+							<legend>基本信息:</legend>
+
+							商品颜色数:<input class="common-text" value="" id="" type="text">
+							类别:<input class="common-text" value="" id="" type="text">
+							商品名称:<input class="common-text" value="" placeholder="商品名称" id=""
+								type="text">
+						</fieldset>
+
+						<fieldset>
+							<legend>选择商品主图:</legend>
+
+							<div class="file-box">
+								
+									<input type='text' name='textfield' id='textfield' class='txt' />
+									<input type='button' class='btn' value='浏览...' /> <input
+										type="file" name="fileField" class="file" id="fileField"
+										size="28"
+										onchange="document.getElementById('textfield').value=this.value" />
+									<input type="submit" name="submit" class="btn" value="上传" />
+								</form>
+							</div>
+
+						</fieldset>
+						
+						
+						<fieldset>
+							<legend>颜色及对应的图片:</legend>
+
+							
+								
+									颜色：<input class="common-text" value="" placeholder="颜色" id=""
+								type="text">
+								库存：<input class="common-text" value="" placeholder="库存" id=""
+								type="text">
+								<div class="file-box" style="margin-top:20px; margin-bottom:20px;">
+								<input type='text' name='textfield' id='textfield' class='txt' />
+									<input type='button' class='btn' value='浏览...' /> <input
+										type="file" name="fileField" class="file" id="fileField"
+										size="28"
+										onchange="document.getElementById('textfield').value=this.value" />
+									<input type="submit" name="submit" class="btn" value="上传" />
+										</div>
+										
+										颜色：<input class="common-text" value="" placeholder="颜色" id=""
+								type="text">
+								库存：<input class="common-text" value="" placeholder="库存" id=""
+								type="text">
+								<div class="file-box" style="margin-top:20px;margin-bottom:20px;">
+								<input type='text' name='textfield' id='textfield' class='txt' />
+									<input type='button' class='btn' value='浏览...' /> <input
+										type="file" name="fileField" class="file" id="fileField"
+										size="28"
+										onchange="document.getElementById('textfield').value=this.value" />
+									<input type="submit" name="submit" class="btn" value="上传" />
+										</div>
+										
+												颜色：<input class="common-text" value="" placeholder="颜色" id=""
+								type="text">
+								库存：<input class="common-text" value="" placeholder="库存" id=""
+								type="text">
+								<div class="file-box" style="margin-top:20px; margin-bottom:20px;">
+								<input type='text' name='textfield' id='textfield' class='txt' />
+									<input type='button' class='btn' value='浏览...' /> <input
+										type="file" name="fileField" class="file" id="fileField"
+										size="28"
+										onchange="document.getElementById('textfield').value=this.value" />
+									<input type="submit" name="submit" class="btn" value="上传" />
+										</div>
+										
+							<div><i class="require-red">*</i>允许上传的文件类型为：image/jpg</div>
+
+						</fieldset>
+						
+						
+						<fieldset>
+							<legend>商品描述：</legend>
+					<div><i class="require-red">*</i>每一项描述用空格隔开；</div>
+					描述：<textarea rows="10" cols="40" style="overflow: auto;"></textarea>
+						<div style="margin-top:20px;">
+						价格:<input class="common-text" value="" placeholder="价格" id=""
+								type="text">
+								</div>	
+								<div style="margin-top:20px;">
+							
+						尺码:<input class="common-text" value="" placeholder="价格" id=""
+								type="text">
+								</div>
+									<div><i class="require-red">*</i>尺码之间用空格隔开；</div>	
+								
+								<div style="margin-top:20px;">
+						有效期:<input class="common-text" value="" placeholder="有效期" id=""
+								type="text">
+								</div>	
+								
+								
+
+						</fieldset>
+
+
+						<input type="submit" value="上传" class="btn btn-primary btn6 mr10">
+						
+
+					</div>
+				
+	<!--/main-->
+	
+</body>
+</html>

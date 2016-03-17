@@ -1,0 +1,125 @@
+body
+{
+	padding:0px;
+	margin:0px;
+	
+}
+header
+{
+	padding:0px;
+	margin:0px;
+}
+.biaoti
+{
+	position:relative;
+	padding:0px;
+	margin:0px;
+	background: url(../image/biaoti.jpg);
+	width:1366px;
+	height: 80px;
+}
+.yemei
+{
+	position:relative;
+	
+}
+
+	
+.yemei ul 
+{
+	position:absolute;
+	margin-left:800px;
+	margin-top:0px;
+	z-index:3;
+	
+}
+.yemei ul li
+{
+	
+	padding:5px 10px;
+	margin-top:10px;
+	float:left;
+	list-style-type: none;
+}
+.yemei ul li span
+{
+	font-size: smaller;
+}
+.yemei ul li a
+{
+	text-decoration: underline;
+	font-size: smaller;
+	color:#0b9968;
+}
+
+.apDiv1 {
+	position: absolute;
+	width: 650px;
+	height: 550px;
+	z-index: 1;
+	left: 200px;
+	top: 100px;
+	border:2px solid #ededed;
+}
+.apDiv2 {
+	position: absolute;
+	width: 580px;
+	height:80px;
+	z-index: 1;
+	left: 15px;
+	top: 16px;
+	
+}
+.apDiv3 {
+	position: absolute;
+	width: 600px;
+	height: 360px;
+	z-index: 2;
+	left: 19px;
+	top: 110px;
+	
+}
+.apDiv4 {
+	position: absolute;
+	width: 192px;
+	height: 53px;
+	z-index: 3;
+	left: 60px;
+	top: 480px;
+	border-radius:5px;
+}
+
+table
+{
+    
+	margin-bottom: 30px;
+	margin-left: 40px;
+	border: 2px solid #CFCFCF;
+	border-radius: 5px;
+	cellspacing:0px;
+	cellpadding:0px;
+}
+
+
+td input{
+border:none;
+
+width:100%;
+height:100%;
+}
+.check ul li 
+{
+	float:left;
+	list-style-type: none;
+	
+}
+.check ul li a
+{
+	text-decoration: none;
+	font-size: smaller;
+	clolr:#ededed;
+}
+.reg_pict
+{
+	border-radius:5px;
+}

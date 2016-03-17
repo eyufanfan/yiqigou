@@ -1,0 +1,182 @@
+body
+{
+	padding:0px;
+	margin:0px;
+	
+}
+header
+{
+	padding:0px;
+	margin:0px;
+}
+.biaoti
+{
+	position:relative;
+	padding:0px;
+	margin:0px;
+	background: url(../image/biaoti.jpg);
+	width:1366px;
+	height: 80px;
+}
+.yemei
+{
+	position:relative;
+	
+}
+
+	
+.yemei ul 
+{
+	position:absolute;
+	margin-left:800px;
+	margin-top:0px;
+	z-index:3;
+	
+}
+.yemei ul li
+{
+	
+	padding:5px 10px;
+	margin-top:10px;
+	float:left;
+	list-style-type: none;
+}
+.yemei ul li span
+{
+	font-size: smaller;
+}
+.yemei ul li a
+{
+	text-decoration: underline;
+	font-size: smaller;
+	color:#0b9968;
+}
+
+.chatu
+{
+	position: absolute;
+	left: 350px;
+	top: 110px;
+}
+.apDiv1 {
+	position: absolute;
+	width: 334px;
+	height: 356px;
+	z-index: 1;
+	left: 800px;
+	top: 150px;
+	border: 2px solid #CFCFCF;
+	border-radius: 10px;
+	background-color:rgba(255,255,255,1);
+}
+.apDiv2 {
+	position: absolute;
+	width: 333px;
+	height: 99px;
+	z-index: 1;
+	border-radius: 10px;
+	background: url(../image/yonghudenglu.jpg);
+	
+}
+.apDiv3 {
+	position: absolute;
+	width: 333px;
+	height: 160px;
+	z-index: 2;
+	left: 0px;
+	top: 102px;
+	align:center;
+}
+.apDiv4 {
+	position: absolute;
+	width: 333px;
+	height: 92px;
+	z-index: 3;
+	top: 264px;
+	left: 1px;
+}
+table
+{
+    
+	margin-bottom: 40px;
+	border: 2px solid #CFCFCF;
+	border-radius: 5px;
+	cellspacing:0px;
+	 cellpadding:0px;
+}
+
+.apDiv5 {
+	position: absolute;
+	width: 113px;
+	height: 39px;
+	z-index: 1;
+	left: 37px;
+	top: 13px;
+	border-radius: 5px;
+	
+	
+}
+.log_tu
+{
+	
+	border-radius: 5px;
+}
+.apDiv6 {
+	position: absolute;
+	width: 143px;
+	height: 35px;
+	z-index: 2;
+	left: 160px;
+	top:-5px;
+}
+.apDiv6 ul li
+{
+	float:left;
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+}
+.apDiv6 ul li a
+{
+	font-size: smaller;
+	color:#bcbbbb;
+}
+a:link {
+	color:#cfcfcf;
+	
+}
+
+a:visited{
+	color:#cfcfcf;
+	
+}
+a:foucs
+{
+	color:#cfcfcf;
+	
+}
+.apDiv6 ul li a:hover
+{
+	color:#5a5a5a;
+	text-decoration: underline;
+}
+a:active
+{
+	color:blue;
+}
+
+
+td input{
+border:none;
+
+width:100%;
+height:100%;
+}
+.u_td
+{
+	background: url(../image/yonghu.png);
+}
+.p_td
+{
+	background: url(../image/mima.png);
+}
